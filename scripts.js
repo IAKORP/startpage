@@ -17,7 +17,7 @@ const engineUrls = {
   google: "https://www.google.com/search?q=",
   startpage: "https://www.startpage.com/search?q=",
   youtube: "https://www.youtube.com/results?q=",
-  searx: "https://www.serx.ml/search?q"
+  searx: "https://www.serx.ml/search?q="
 }
 
 const isWebUrl = value => {
