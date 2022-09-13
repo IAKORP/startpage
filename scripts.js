@@ -16,7 +16,7 @@ const engineUrls = {
   ecosia: "https://www.ecosia.org/search?q=",
   google: "https://www.google.com/search?q=",
   startpage: "https://www.startpage.com/search?q=",
-  youtube: "https://www.youtube.com/results?q=",
+  brave: "https://search.brave.com/search?q=",
   searx: "https://www.serx.ml/search?q="
 }
 
