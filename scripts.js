@@ -9,7 +9,7 @@ const searchInput = document.querySelector("#searchbar > input")
 const searchButton = document.querySelector("#searchbar > button")
 
 const lookup = {"/":"/","deepl":"https://deepl.com/","reddit":"https://reddit.com/","maps":"https://maps.google.com/","yt":"https://youtube.com/","dc":"https://discord.com/channels/@me","spfy":"https://open.spotify.com/","yugen":"https://yugen.to","9anime":"https://9anime.id/home","zoro":"https://zoro.to/home","shiro":"https://shiro.is/home","animix":"https://animixplay.to","pahe":"https://animepahe.com","ash":"https://ashanime.pro/home","anlst":"https://anilist.co/home","mal":"https://myanimelist.net","kitsu":"https://kitsu.io","simkl":"https://simkl.com/anime/","dex":"https://mangadex.org","cmkck":"https://comick.fun","mnwa":"https://manhuaplus.com","mreder":"https://mangareader.to","saw":"https://simplyaweeb.to"}
-const engine = "searx"
+const engine = "brave"
 const engineUrls = {
   deepl: "https://www.deepl.com/translator#-/-/",
   duckduckgo: "https://duckduckgo.com/?q=",
@@ -18,6 +18,7 @@ const engineUrls = {
   startpage: "https://www.startpage.com/search?q=",
   youtube: "https://www.youtube.com/results?q=",
   searx: "https://www.serx.ml/search?q="
+  brave: "https://www.search.brave.com/search?q="
 }
 
 const isWebUrl = value => {
