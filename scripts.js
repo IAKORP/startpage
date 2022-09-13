@@ -18,7 +18,6 @@ const engineUrls = {
   startpage: "https://www.startpage.com/search?q=",
   youtube: "https://www.youtube.com/results?q=",
   searx: "https://www.serx.ml/search?q="
-  brave: "https://search.brave.com/search?q="
 }
 
 const isWebUrl = value => {
