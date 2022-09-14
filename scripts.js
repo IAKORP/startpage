@@ -23,7 +23,7 @@ const engineUrls = {
 const isWebUrl = value => {
   try {
     const url = new URL(value)
-    return url.protocol === "http:" || url.protocol === "https:"
+    return url.protocol === "http:" || url.protocol === "https:" || url.protocol === ">"
   } catch {
     return false
   }
